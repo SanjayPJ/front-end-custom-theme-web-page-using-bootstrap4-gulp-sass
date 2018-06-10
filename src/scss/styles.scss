@@ -1,0 +1,26 @@
+
+
+// change variables
+
+
+$theme-colors: (
+    "primary":#563d7c,
+) !default;
+
+
+$body-bg:   #ededed;
+
+$font-family-sans-serif:  'Raleway', sans-serif;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+$default-font-size : 14px;
+
+$font-size-base:  $default-font-size;
+
+$card-border-radius: 0px;
+
+.jumbotron{
+    background-color: #fff !important;
+}
+
